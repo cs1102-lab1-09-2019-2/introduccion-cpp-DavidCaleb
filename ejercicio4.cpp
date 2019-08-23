@@ -1,5 +1,13 @@
+#include <iostream>
+#include <cmath>
 
-int main() {
+using namespace std;
+
+
+int main()
+{
+    double c, i;
+
     i = 1;
 
     // Post-incremento asigna i a c y luego incrementa i
@@ -24,5 +32,7 @@ int main() {
     cout<<"Decremento ejemplo: \n";
     cout<<"El valor de i es: "<<i<<"\n";
 
-}
+    return 0;
 
+
+}
